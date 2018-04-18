@@ -11,6 +11,8 @@
 		39BB2B01208721D100CB884D /* GGPayKit_CategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BB2B00208721D100CB884D /* GGPayKit_CategoryTests.m */; };
 		39BB2B03208721D100CB884D /* GGPayKit_Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 39BB2AF5208721D100CB884D /* GGPayKit_Category.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39BB2B0E2087234000CB884D /* FDModuleMiddleware+GGPayKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB2B0D2087234000CB884D /* FDModuleMiddleware+GGPayKit.swift */; };
+		6CA8463AEF137D1E3E2DE79E /* Pods_GGPayKit_Category.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2D138EA2F6B7375BC886BF /* Pods_GGPayKit_Category.framework */; };
+		BFC30D05D749F955B2E9FAC4 /* Pods_GGPayKit_CategoryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6025094A653CB6015F767A8D /* Pods_GGPayKit_CategoryTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +26,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1977C8E1209A6B3DBE0B3CF9 /* Pods-GGPayKit_Category.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGPayKit_Category.release.xcconfig"; path = "Pods/Target Support Files/Pods-GGPayKit_Category/Pods-GGPayKit_Category.release.xcconfig"; sourceTree = "<group>"; };
+		1D2D138EA2F6B7375BC886BF /* Pods_GGPayKit_Category.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GGPayKit_Category.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39BB2AF2208721D100CB884D /* GGPayKit_Category.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GGPayKit_Category.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39BB2AF5208721D100CB884D /* GGPayKit_Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGPayKit_Category.h; sourceTree = "<group>"; };
 		39BB2AF6208721D100CB884D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,6 +35,10 @@
 		39BB2B00208721D100CB884D /* GGPayKit_CategoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGPayKit_CategoryTests.m; sourceTree = "<group>"; };
 		39BB2B02208721D100CB884D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39BB2B0D2087234000CB884D /* FDModuleMiddleware+GGPayKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FDModuleMiddleware+GGPayKit.swift"; sourceTree = "<group>"; };
+		6025094A653CB6015F767A8D /* Pods_GGPayKit_CategoryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GGPayKit_CategoryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6308180C6BBEFBCB3EF1A647 /* Pods-GGPayKit_Category.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGPayKit_Category.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GGPayKit_Category/Pods-GGPayKit_Category.debug.xcconfig"; sourceTree = "<group>"; };
+		A6964DF0EC753DF31B3BCA0E /* Pods-GGPayKit_CategoryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGPayKit_CategoryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GGPayKit_CategoryTests/Pods-GGPayKit_CategoryTests.release.xcconfig"; sourceTree = "<group>"; };
+		B94F7410901AEFD33C17AEF7 /* Pods-GGPayKit_CategoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGPayKit_CategoryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GGPayKit_CategoryTests/Pods-GGPayKit_CategoryTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CA8463AEF137D1E3E2DE79E /* Pods_GGPayKit_Category.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +55,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39BB2AFC208721D100CB884D /* GGPayKit_Category.framework in Frameworks */,
+				BFC30D05D749F955B2E9FAC4 /* Pods_GGPayKit_CategoryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +68,8 @@
 				39BB2AF4208721D100CB884D /* GGPayKit_Category */,
 				39BB2AFF208721D100CB884D /* GGPayKit_CategoryTests */,
 				39BB2AF3208721D100CB884D /* Products */,
+				F18572D3385157047AD3EAB8 /* Pods */,
+				5D82C2571875286FD3EA215C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +109,26 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
+		5D82C2571875286FD3EA215C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D2D138EA2F6B7375BC886BF /* Pods_GGPayKit_Category.framework */,
+				6025094A653CB6015F767A8D /* Pods_GGPayKit_CategoryTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F18572D3385157047AD3EAB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6308180C6BBEFBCB3EF1A647 /* Pods-GGPayKit_Category.debug.xcconfig */,
+				1977C8E1209A6B3DBE0B3CF9 /* Pods-GGPayKit_Category.release.xcconfig */,
+				B94F7410901AEFD33C17AEF7 /* Pods-GGPayKit_CategoryTests.debug.xcconfig */,
+				A6964DF0EC753DF31B3BCA0E /* Pods-GGPayKit_CategoryTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -115,6 +147,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39BB2B06208721D100CB884D /* Build configuration list for PBXNativeTarget "GGPayKit_Category" */;
 			buildPhases = (
+				BF74AF87D6D039ADC9096E8F /* [CP] Check Pods Manifest.lock */,
 				39BB2AED208721D100CB884D /* Sources */,
 				39BB2AEE208721D100CB884D /* Frameworks */,
 				39BB2AEF208721D100CB884D /* Headers */,
@@ -133,9 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39BB2B09208721D100CB884D /* Build configuration list for PBXNativeTarget "GGPayKit_CategoryTests" */;
 			buildPhases = (
+				665B98C87547F7B5334831B5 /* [CP] Check Pods Manifest.lock */,
 				39BB2AF7208721D100CB884D /* Sources */,
 				39BB2AF8208721D100CB884D /* Frameworks */,
 				39BB2AF9208721D100CB884D /* Resources */,
+				58418B2B0A582DAC632740E0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -199,6 +234,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58418B2B0A582DAC632740E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GGPayKit_CategoryTests/Pods-GGPayKit_CategoryTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FDModuleMiddleware/FDModuleMiddleware.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FDModuleMiddleware.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GGPayKit_CategoryTests/Pods-GGPayKit_CategoryTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		665B98C87547F7B5334831B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GGPayKit_CategoryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF74AF87D6D039ADC9096E8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GGPayKit_Category-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		39BB2AED208721D100CB884D /* Sources */ = {
@@ -346,6 +438,7 @@
 		};
 		39BB2B07208721D100CB884D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6308180C6BBEFBCB3EF1A647 /* Pods-GGPayKit_Category.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -357,11 +450,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GGPayKit_Category/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "none.GGPayKit-Category";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -373,6 +462,7 @@
 		};
 		39BB2B08208721D100CB884D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1977C8E1209A6B3DBE0B3CF9 /* Pods-GGPayKit_Category.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -384,11 +474,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GGPayKit_Category/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "none.GGPayKit-Category";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -399,16 +485,13 @@
 		};
 		39BB2B0A208721D100CB884D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B94F7410901AEFD33C17AEF7 /* Pods-GGPayKit_CategoryTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L8MRL9B64V;
 				INFOPLIST_FILE = GGPayKit_CategoryTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "none.GGPayKit-CategoryTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -417,16 +500,13 @@
 		};
 		39BB2B0B208721D100CB884D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6964DF0EC753DF31B3BCA0E /* Pods-GGPayKit_CategoryTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L8MRL9B64V;
 				INFOPLIST_FILE = GGPayKit_CategoryTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "none.GGPayKit-CategoryTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

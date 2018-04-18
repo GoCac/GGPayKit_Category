@@ -10,14 +10,14 @@ import Foundation
 import FDModuleMiddleware
 
 public extension FDMediator {
-    public func refund(callback: (_ result:String) -> Void) -> UIViewController? {
-        var params:[String: Any]
+    public func refund(callback: @escaping (_ result:String) -> Void) -> UIViewController? {
+        var params:[String: Any] = [:]
         params["callback"] = callback
         return self.performTarget("GGPayKit", action: "refund", params: params, shouldCacheTarget: false) as? UIViewController
     }
     
     public func payment(callback: (_ result:String) -> Void) -> UIViewController? {
-        return self.performTarget("GGPayKit", action: "payment", params: params, shouldCacheTarget: false) as? UIViewController
+        return self.performTarget("GGPayKit", action: "payment", params: nil, shouldCacheTarget: false) as? UIViewController
     }
 }
 
