@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GGPayKit_Category"
-  s.version      = "0.0.3"
+  s.version      = "0.0.2"
   s.summary      = "哈哈哈哈哈"
 
   # This description is used to generate tags and improve search results.
@@ -107,7 +107,7 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
 
-  s.resources = "GGPayKit_Category/**/*.xib"
+  # s.resources = "GGPayKit_Category/**/*.xib"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
