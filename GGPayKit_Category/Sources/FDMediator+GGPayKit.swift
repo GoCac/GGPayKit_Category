@@ -1,6 +1,6 @@
 //
-//  FDMediator+Pay.swift
-//  PayCategory
+//  FDMediator+GGPayKit.swift
+//  GGPayKit_Category
 //
 //  Created by Youhao Gong 宫酉昊 on 2018/4/17.
 //  Copyright © 2018年 Youhao Gong 宫酉昊. All rights reserved.
@@ -20,22 +20,3 @@ public extension FDMediator {
         return self.performTarget("GGPayKit", action: "payment", params: nil, shouldCacheTarget: false) as? UIViewController
     }
 }
-
-//- (UIViewController *)refundWithCallback:(void(^)(NSString *result))callback;
-//{
-//    NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
-//    params[@"callback"] = callback;
-//    id obj = [self performTarget:@"Pay" action:@"refund" params:params shouldCacheTarget:NO];
-//    
-//    if ((obj != NULL) && ([obj isKindOfClass:[UIViewController class]])) {
-//        return obj;
-//    }
-//    else {
-//        return NULL;
-//    }
-//    }
-//    
-//    - (UIViewController *)paymentWithCallback:(void(^)(NSString *result))callback;
-//{
-//    return [self performTarget:@"Pay" action:@"payment" params:nil shouldCacheTarget:NO];
-//}

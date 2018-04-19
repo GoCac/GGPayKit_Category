@@ -10,7 +10,7 @@
 		39BB2AFC208721D100CB884D /* GGPayKit_Category.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39BB2AF2208721D100CB884D /* GGPayKit_Category.framework */; };
 		39BB2B01208721D100CB884D /* GGPayKit_CategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BB2B00208721D100CB884D /* GGPayKit_CategoryTests.m */; };
 		39BB2B03208721D100CB884D /* GGPayKit_Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 39BB2AF5208721D100CB884D /* GGPayKit_Category.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39BB2B0E2087234000CB884D /* FDModuleMiddleware+GGPayKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB2B0D2087234000CB884D /* FDModuleMiddleware+GGPayKit.swift */; };
+		39BB2B0E2087234000CB884D /* FDMediator+GGPayKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB2B0D2087234000CB884D /* FDMediator+GGPayKit.swift */; };
 		6CA8463AEF137D1E3E2DE79E /* Pods_GGPayKit_Category.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2D138EA2F6B7375BC886BF /* Pods_GGPayKit_Category.framework */; };
 		BFC30D05D749F955B2E9FAC4 /* Pods_GGPayKit_CategoryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6025094A653CB6015F767A8D /* Pods_GGPayKit_CategoryTests.framework */; };
 /* End PBXBuildFile section */
@@ -34,7 +34,7 @@
 		39BB2AFB208721D100CB884D /* GGPayKit_CategoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GGPayKit_CategoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39BB2B00208721D100CB884D /* GGPayKit_CategoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGPayKit_CategoryTests.m; sourceTree = "<group>"; };
 		39BB2B02208721D100CB884D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		39BB2B0D2087234000CB884D /* FDModuleMiddleware+GGPayKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FDModuleMiddleware+GGPayKit.swift"; sourceTree = "<group>"; };
+		39BB2B0D2087234000CB884D /* FDMediator+GGPayKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FDMediator+GGPayKit.swift"; sourceTree = "<group>"; };
 		6025094A653CB6015F767A8D /* Pods_GGPayKit_CategoryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GGPayKit_CategoryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6308180C6BBEFBCB3EF1A647 /* Pods-GGPayKit_Category.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGPayKit_Category.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GGPayKit_Category/Pods-GGPayKit_Category.debug.xcconfig"; sourceTree = "<group>"; };
 		A6964DF0EC753DF31B3BCA0E /* Pods-GGPayKit_CategoryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGPayKit_CategoryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GGPayKit_CategoryTests/Pods-GGPayKit_CategoryTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 		39BB2B0C2087231F00CB884D /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				39BB2B0D2087234000CB884D /* FDModuleMiddleware+GGPayKit.swift */,
+				39BB2B0D2087234000CB884D /* FDMediator+GGPayKit.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -297,7 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39BB2B0E2087234000CB884D /* FDModuleMiddleware+GGPayKit.swift in Sources */,
+				39BB2B0E2087234000CB884D /* FDMediator+GGPayKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,7 +450,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GGPayKit_Category/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "none.GGPayKit-Category";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -474,7 +478,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GGPayKit_Category/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "none.GGPayKit-Category";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -491,7 +499,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L8MRL9B64V;
 				INFOPLIST_FILE = GGPayKit_CategoryTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "none.GGPayKit-CategoryTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -506,7 +518,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L8MRL9B64V;
 				INFOPLIST_FILE = GGPayKit_CategoryTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "none.GGPayKit-CategoryTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
